@@ -1,0 +1,13 @@
+# Composer Dependencies (WAJIB)
+/vendor/
+
+# Environment file rahasia (WAJIB)
+/config/secrets.php
+
+# Log files
+*.log
+logs/
+
+# Operating System files
+.DS_Store
+Thumbs.db

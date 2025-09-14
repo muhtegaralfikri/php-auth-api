@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Perintah ini memaksa Apache untuk meneruskan header Authorization ke PHP
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
